@@ -1,21 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
-  :root {
+:root {
     --bg-color: #000000;
-    --primary-color: #0c86a5;
-    --secondary-color: #F05454;
+    --primary-color: #32ce66;
+    --secondary-color: #ffffff;
     --font: "Nunito Sans", sans-serif;
 }
 
-
-  body {
+body {
     background-color: var(--bg-color);
     color: var(--primary-color);
     font-family: var(--font);
     height: 100vh;
     margin: 0;
 }
-
 
 header {
     background-color: var(--primary-color);
@@ -52,6 +50,10 @@ nav a:hover {
     margin: 5rem;
 }
 
+.grafico {
+    margin-top: 3rem;
+}
+
 .graficos-container__texto {
     font-size: 1.3rem;
     text-align: center;
@@ -62,4 +64,15 @@ nav a:hover {
 span {
     font-weight: bold;
     color: var(--secondary-color);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    width: 100%;
+    height: 3rem;
+    margin-top: 2rem;
 }
